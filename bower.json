@@ -2,8 +2,12 @@
     "name": "select2",
     "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
     "main": [
-        "dist/js/select2.js",
-        "src/scss/core.scss"
+        "dist/js/select2.min.js",
+        "dist/css/select2.min.css"
+    ],
+    "ignore": [
+        "*",
+        "!dist/*"
     ],
     "repository": {
         "type": "git",
